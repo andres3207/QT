@@ -183,6 +183,8 @@ void MainWindow::on_pushButton_clicked()
     tmp_y=ui->textEdit_2->toPlainText();
     escena->addLine(tmp_x.toInt(),tmp_y.toInt(),tmp_x.toInt(),tmp_y.toInt());*/
     escena->clear();
+    i=0;
+    cambio=true;
     timer->start();
 }
 
