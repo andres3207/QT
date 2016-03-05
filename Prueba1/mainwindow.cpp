@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->label->setText("coordenada X:");
     ui->label_2->setText("coordenada Y:");
     ui->pushButton->setText("Marcar punto");
-
+    escena->setSceneRect(0,0,1280,420);
     ui->graphicsView->setScene(escena);
 
 }
